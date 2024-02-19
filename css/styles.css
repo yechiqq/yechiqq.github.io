@@ -1,5 +1,5 @@
 :root {
-	--maincolor: #073FD4;
+	--maincolor: #178FD4;
 	--secondcolor: #ffffff; 
 }
 
@@ -40,6 +40,9 @@ body {
 	color: #555;
 	line-height: 1.4;
 	font-family: Helvetica,Arial,sans-serif;
+}
+.textstroke {
+	-webkit-text-stroke: 1px var(--maincolor);
 }
 .logo a {
 margin: 0 auto; 
@@ -171,7 +174,7 @@ a:before, a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../images/info1.jpg) no-repeat center top;
+	background: url(../images/info3.jpg) no-repeat center top;
 	margin-top: -50px;
 	padding-top: 120px;
 	text-align: center;
