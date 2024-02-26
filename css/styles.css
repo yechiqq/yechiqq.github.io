@@ -254,9 +254,29 @@ a:before, a:after {
 .colored {
 	color: var(--maincolor);
 }
+.bgcolored {
+	background-color: var(--maincolor);
+}
+.solidborder {
+	border-style: solid;
+  border-width: 1px;
+}
+.boldfont {
+	font-weight: bold;
+}
 .list-unstyled li {
 	padding: 5px 0;
 }
+
+td, th {
+	border: 1px solid #aaaaaa;
+	text-align: left;
+	padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+	background-color: #dddddd;
+  }
 
 .img-circle {
 border-radius: 50%;
