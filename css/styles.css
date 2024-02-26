@@ -245,6 +245,9 @@ a:before, a:after {
 .space {
 	padding: 20px 0;
 }
+.headspace {
+	padding: 80px 0;
+}
 .pr-10 {
 	padding-right: 10px;
 }
