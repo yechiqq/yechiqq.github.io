@@ -65,7 +65,7 @@ color: #1B0B03;
 }
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
 color: #fff;
-background-color: #080808;
+background-color: var(--maincolor);
 border-radius: 15px 0px 15px 0px;
 }
 .col-md-4 {
