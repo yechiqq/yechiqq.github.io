@@ -51,6 +51,9 @@ display: inline-block;
 .logo a img{
 background:transparent;
 }
+.logoimage {
+	height: 20px;
+}
 .navbar {
 	background-color: #FFFFFF;
 	border-color: rgba(127, 90, 5, 1);
@@ -157,7 +160,7 @@ blockquote cite:before {
 }
 /* Links */
 a {
-	color: #4abcc5;
+	color: var(--maincolor);
 	word-wrap: break-word;
 	transition: color 0.1s ease-in, background 0.1s ease-in;
 }
