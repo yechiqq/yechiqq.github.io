@@ -299,14 +299,14 @@ background: #fff;
 	background: #FFF;
 	padding: 100px 0;
 }
-#services {
+.services {
 	background: #FFFFFF;
 	padding: 100px 0;
 }
-#services .fa {
+.services .fa {
 	color: var(--maincolor);
 }
-#services p {
+.services p {
 	text-align: center;
 }
 .hero-section{
