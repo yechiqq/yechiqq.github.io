@@ -226,14 +226,6 @@ a:before, a:after {
 	outline: 0px;
 	border-radius: 5px;
 }
-#headerwrap .btn a{
-	color: #fff;
-	text-decoration: none;
-}
-#headerwrap .btn a:hover, #headerwrap .btn a:focus{
-	color: #000;
-	text-decoration: none;
-}
 
 .box-services {
 	padding: 40px 20px 20px;
