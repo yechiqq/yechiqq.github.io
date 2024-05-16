@@ -697,6 +697,10 @@ body .header {
 }
 
 @media screen and (max-width:769px) {
+	
+	.navbar .nav{
+		margin-top: 10px;
+	}
 #headerwrap h1 {
 	font-size: 80px;
 }
@@ -706,6 +710,10 @@ body .header {
 }
 }
 @media screen and (max-width:480px) {
+	
+	.navbar .nav{
+		margin-top: 10px;
+	}
 #headerwrap h1 {
 font-size: 34px;
 }
