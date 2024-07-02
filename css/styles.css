@@ -41,8 +41,9 @@ body {
 	line-height: 1.4;
 	font-family: Helvetica,Arial,sans-serif;
 }
-.textstroke {
-	-webkit-text-stroke: 1px var(--maincolor);
+.headertext {
+	padding: 10px;
+	background-color: var(--maincolor);
 }
 .logo a {
 margin: 0 auto; 
@@ -551,8 +552,9 @@ z-index: -1;}
 	background-color: var(--maincolor);
 }
 #portfolio {
-	background: #fff;
-	padding: 0 0 100px 0;
+	background: black;
+	color: #fff;
+	padding: 50px 0 20px 0;
 }
 #portfolio .btn-default {
 	border: 0;
