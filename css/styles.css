@@ -42,7 +42,7 @@ body {
 	font-family: Helvetica,Arial,sans-serif;
 }
 .headertext {
-	padding: 10px;
+	padding: 3px;
 	background-color: var(--maincolor);
 }
 .logo a {
