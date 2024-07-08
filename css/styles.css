@@ -11,12 +11,10 @@ body {
 	font-family: Helvetica,Arial,sans-serif;
 }
 
-.headertext {
-	padding: 3px;
-	background-color: var(--maincolor);
-}
 .logoimage {
 	height: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .navbar {
 	background-color: #FFFFFF;
@@ -35,55 +33,36 @@ border-radius: 15px 0px 15px 0px;
 /* Links */
 a {
 	color: var(--maincolor);
-	word-wrap: break-word;
-	transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 a:hover, a:focus {
-	color: #c0392b;
-	text-decoration: none;
-	outline: 0;
+	color: var(--secondcolor);
 }
-a:before, a:after {
-	transition: color 0.1s ease-in, background 0.1s ease-in;
-} 
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
 
 #headerwrap {
 	background: url(../images/info3.jpg) no-repeat center top;
-	margin-top: -50px;
-	padding-top: 120px;
+	padding-top: 60px;
 	text-align: center;
-	background-attachment: relative;
 	background-position: center center;
-	min-height: 850px;
+	min-height: 700px;
 	width: 100%;
-	background-size: 100%;
 	background-size: cover;
-	padding-bottom: 100px;
 }
 #headerwrap h1 {
-	color: #ffffff;
+	margin-top: 200px;
 	font-size: 50px;
 	font-weight: 400;
-	text-align: center;
-	letter-spacing: 3px;
 }
 #headerwrap p {
-	color: #fff;
 	font-size: 22px;
 	font-weight: 300;
-	text-align: center;
-	letter-spacing: 1px;
 }
-#headerwrap .icon {
-	color: var(--maincolor);
-	margin-top: 115px;
-	padding-bottom: 30px;
-	letter-spacing: 8px;
-	font-size: 100px;
-	font-weight: bold;
+#headerwrap span {
+	padding: 3px;
+	color: #ffffff;
+	background-color: var(--maincolor);
 }
 #headerwrap .btn {
 	font-weight: 500;
@@ -92,7 +71,6 @@ a:before, a:after {
 	background-color: var(--maincolor);
 	color: #fff;
 	border-radius: 5px;
-	color: #000;
 }
 #headerwrap .btn:hover, #headerwrap .btn:focus {
 	background-color:#fff;
@@ -197,29 +175,5 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 
 @media only screen and (min-device-width:768px) and (max-device-width : 1024px) and (orientation : portrait) {}
 
-@media screen and (max-width:769px) {
-	
-	.navbar .nav{
-		margin-top: 10px;
-	}
-#headerwrap h1 {
-	font-size: 80px;
-}
-#headerwrap p {
-	font-size: 30px;
-	line-height: 38px;
-}
-}
-@media screen and (max-width:480px) {
-	
-	.navbar .nav{
-		margin-top: 10px;
-	}
-#headerwrap h1 {
-font-size: 34px;
-}
-#headerwrap p {
-margin-top:30px;
-font-size: 20px;
-}
-}
+@media screen and (max-width:769px) {}
+@media screen and (max-width:480px) {}
