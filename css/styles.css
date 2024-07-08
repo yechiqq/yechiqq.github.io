@@ -131,38 +131,26 @@ a:hover, a:focus {
 }
 
 footer {
-	background: #080808;
+	background: #000;
 	padding: 25px 0 15px 0;
-	border-bottom: 1px solid #ddd;
 	text-align: center;
 }
 footer span.copyright {
 	line-height: 40px;
-	color: #888;
+	color: #FFF;
 	font-weight: 400;
 }
 footer span.copyright a {
-	color: #888;
-	border-bottom: 1px dotted;
+	color: #FFF;
 }
-footer span.copyright a:hover {
-	color: var(--maincolor);
-	text-decoration: none;
-}
-footer h4 {
-	color: white;
-}
-ul.social-buttons {
-	margin: 0;
-}
+
 ul.social-buttons li {
 	display:inline;
 }
 ul.social-buttons li a {
 	font-size: 22px;
-outline: 0;
-color: #FFFFFF;
-margin-right: 12px;
+	color: #FFFFFF;
+	margin-right: 12px;
 }
 ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
 	color: var(--maincolor);
