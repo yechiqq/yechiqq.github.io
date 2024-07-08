@@ -193,17 +193,9 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 /* ==========================================
    MEDIA QUERIES
    ======================================== */
-@media screen and (max-width:1050px), screen and (max-device-width:1050px) {
-body .header {
-	background-attachment: scroll;
-}
-}
+@media screen and (max-width:1050px), screen and (max-device-width:1050px) {}
 
-@media only screen and (min-device-width:768px) and (max-device-width : 1024px) and (orientation : portrait) {
-.header {
-	background-attachment: scroll;
-}
-}
+@media only screen and (min-device-width:768px) and (max-device-width : 1024px) and (orientation : portrait) {}
 
 @media screen and (max-width:769px) {
 	
@@ -229,8 +221,5 @@ font-size: 34px;
 #headerwrap p {
 margin-top:30px;
 font-size: 20px;
-}
-#team img{
-margin-top:30px;
 }
 }
