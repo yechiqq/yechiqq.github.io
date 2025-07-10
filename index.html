@@ -46,7 +46,38 @@
       gtag('js', new Date());
 
       gtag('config', 'G-1N1D8V1CJ0');
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-11388695098/nrIaCNzNkfAYELrkxrYq',
+            'transaction_id': '',
+            'event_callback': callback
+        });
+        return false;
+      }
     </script>
+    <!-- Event snippet for Purchase conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-11388695098/nrIaCNzNkfAYELrkxrYq',
+        'transaction_id': '',
+        'event_callback': callback
+    });
+    return false;
+  }
+  </script>
+  
   </head>
   <body>
 
@@ -76,7 +107,7 @@
       <div class="row">
         <div class="text-center">
           <h1><span class="headertext">Free Demo Before Pay</span></h1>
-          <a title="whatsapp" href="https://api.whatsapp.com/send?phone=6596427196&text=Hello" class="btn btn-info"> Whatsapp (+65) 96427196 </a>
+          <a title="whatsapp" onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=6596427196&text=Hi');" href="https://api.whatsapp.com/send?phone=6596427196&text=Hi" class="btn btn-info"> Whatsapp (+65) 96427196 </a>
         </div>
       </div>
     </div>
